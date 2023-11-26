@@ -1,2 +1,8 @@
-package principlesOOP1;public interface VendingMachine {
+package principlesOOP1;
+
+import java.util.List;
+
+public interface VendingMachine {
+    public void initProduct(List<Product> productList);
+    public  Product getProduct(String name);
 }
