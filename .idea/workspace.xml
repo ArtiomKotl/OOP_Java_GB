@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="HW_4 create v1.2 в доработке">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="HW_4 create v1.3 полуитоговая правка Readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/view/StudentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/view/TeacherView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/view/TeacherView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="916028eefc7fd06d08a10390cb1f52b60de50a31" />
+        <entry key="$PROJECT_DIR$" value="h_w_4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702584679723</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW_4 create v1.3 полуитоговая">
+      <created>1702821379177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821379177</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW_4 create v1.3 полуитоговая правка Readme">
+      <created>1702821480889</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702821480889</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +242,8 @@
     <MESSAGE value="HW_4 create v1.0" />
     <MESSAGE value="HW_4 create v1.1" />
     <MESSAGE value="HW_4 create v1.2 в доработке" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_4 create v1.2 в доработке" />
+    <MESSAGE value="HW_4 create v1.3 полуитоговая" />
+    <MESSAGE value="HW_4 create v1.3 полуитоговая правка Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_4 create v1.3 полуитоговая правка Readme" />
   </component>
 </project>
