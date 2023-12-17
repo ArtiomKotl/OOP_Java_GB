@@ -16,26 +16,20 @@ public class StudentController implements UserController<Student>{
     private final StudentService dataService = new StudentService ();
     private final StudentGroupService studentGroupService = new StudentGroupService ();
     private final StudentView studentView = new StudentView();
-    private final UserView userView = new UserView () {
-        @Override
-        public void sendOnConsole(List list) {
-            userView.sendOnConsole ( dataService.getAll () );
-        }
-    };
+
+
 
     @Override
     public void create(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
         dataService.create(firstName, secondName, patronymic, dateOfBirth);
-        studentView.sendOnConsole(dataService.getAll ());
+//        studentView.sendOnConsole(dataService.getAll ());
     }
 
     public void sendOnConcoleStudent(){
         studentView.sendOnConsole (dataService.getAll ());
     }
 
-    public void sendOnConcole(){
 
-    }
 
     public void createStudentGroup(Teacher teacher, List<Student> students){
         studentGroupService.createStudentGroup(teacher, students);

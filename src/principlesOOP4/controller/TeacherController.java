@@ -14,6 +14,13 @@ public class TeacherController implements UserController<Teacher>{
 
     @Override
     public void create(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
+        teacherService.create ( firstName, secondName, patronymic, dateOfBirth );
 
+    }
+
+    
+
+    public void sendOnConsoleTeacher(){
+        teacherView.sendOnConsole ( teacherService.getAll () );
     }
 }

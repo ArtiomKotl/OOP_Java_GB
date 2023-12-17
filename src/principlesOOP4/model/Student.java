@@ -3,38 +3,43 @@ package principlesOOP4.model;
 import java.time.LocalDate;
 
 public class Student extends User implements Comparable<Student>{
-    private Long studentId;
+    private int studentId;
 
-    public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
-        super(firstName, secondName, patronymic, dateOfBirth);
-    }
+//    public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
+//        super(firstName, secondName, patronymic, dateOfBirth);
+//    }
 
-    public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth, Long studentId) {
+    public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth, int studentId) {
         super(firstName, secondName, patronymic, dateOfBirth);
         this.studentId = studentId;
     }
 
-    public Long getStudentId() {
+    public int getStudentId() {
         return studentId;
     }
 
-    public void setStudentId(Long studentId) {
+    public void setStudentId(Integer studentId) {
         this.studentId = studentId;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "studentId='" + studentId +'\'' +
-                ", firstName='" + super.getFirstName() + '\'' +
-                ", secondName='" + super.getSecondName() + '\'' +
-                ", patronymic='" + super.getPatronymic() + '\'' +
-                ", dateOfBirth=" + super.getDateOfBirth() +
+                "studentId = " + studentId +
+                ", firstName = '" + super.getFirstName() + '\'' +
+                ", secondName = '" + super.getSecondName() + '\'' +
+                ", patronymic = '" + super.getPatronymic() + '\'' +
+                ", dateOfBirth = " + super.getDateOfBirth() +
                 '}';
     }
 
     @Override
     public int compareTo(Student o) {
-        return this.studentId.compareTo(o.studentId);
+        if (o.getStudentId () > studentId)
+            return -1;
+        if (o.getStudentId () > studentId)
+            return 1;
+        return 0;
+
     }
 }

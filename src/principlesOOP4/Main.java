@@ -1,6 +1,8 @@
 package principlesOOP4;
 
 import principlesOOP4.controller.StudentController;
+import principlesOOP4.controller.TeacherController;
+import principlesOOP4.model.Teacher;
 
 import java.time.LocalDate;
 
@@ -11,8 +13,20 @@ public class Main {
         controller.create ( "qwert", "qwewrh", "ertyeyetw", LocalDate.ofEpochDay ( 2007-11-05 ) );
         controller.create ( "qweert", "qwewrte", "ertyeyetw", LocalDate.ofEpochDay ( 1987-12-14 ) );
         controller.create ( "qwete", "qwewret", "ertyeyewgg", LocalDate.ofEpochDay ( 2007-10-25 ) );
-        //controller.sendOnConcoleStudent ();
-        controller.sendOnConcole ();
+        controller.sendOnConcoleStudent ();
+        System.out.println ();
+        TeacherController teacherController = new TeacherController ();
+        teacherController.create ( "Bob", "Danvew","Viewtun", LocalDate.ofEpochDay ( ( 1987-12-14 ) ) );
+        teacherController.create ( "Bibob", "Danonvew","Viewtun", LocalDate.ofEpochDay ( ( 1999-12-14 ) ) );
+        teacherController.create ( "Bobop", "Daynvew","Viewsaetun", LocalDate.ofEpochDay ( ( 1985-12-15 ) ) );
+        teacherController.create ( "Bobtr", "Darttnvew","Viewetatun", LocalDate.ofEpochDay ( ( 1987-12-10 ) ) );
+        teacherController.sendOnConsoleTeacher ();
+
+
+
+
+
+
 
         }
 }

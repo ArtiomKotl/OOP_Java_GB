@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="HW_4 create v1.1">
-      <change afterPath="$PROJECT_DIR$/src/principlesOOP4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principlesOOP4/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principlesOOP4/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principlesOOP4/view/TeacherView.java" afterDir="false" />
+    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="HW_4 create v1.2 в доработке">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/view/StudentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/principlesOOP4/view/TeacherView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principlesOOP4/view/TeacherView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,12 +194,24 @@
       <option name="project" value="LOCAL" />
       <updated>1702583593378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW_4 create v1.2 в доработке">
+      <created>1702584679723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702584679723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="2b616b74-6430-4a04-b4a6-32a4a7d47900">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -219,6 +237,7 @@
     <MESSAGE value="HW_3 часть с семинара" />
     <MESSAGE value="HW_4 create v1.0" />
     <MESSAGE value="HW_4 create v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_4 create v1.1" />
+    <MESSAGE value="HW_4 create v1.2 в доработке" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_4 create v1.2 в доработке" />
   </component>
 </project>
