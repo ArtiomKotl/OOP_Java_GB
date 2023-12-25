@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="HW_5 — Создать класс УчебнаяГруппа, содержащий в себе поля Преподаватель и список Студентов;">
-      <change afterPath="$PROJECT_DIR$/src/principlesOOP6/README.md" afterDir="false" />
+    <list default="true" id="37b75f6c-ba6e-4214-9a1e-414d1c52590a" name="Changes" comment="Урок 6. ООП Дизайн и Solid // не закончено. //">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703018531819</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Урок 6. ООП Дизайн и Solid // не закончено. //">
+      <created>1703191704615</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703191704615</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +268,7 @@
     <MESSAGE value="HW_4 create v1.3 полуитоговая правка Readme" />
     <MESSAGE value="HW_5 ReadMe.md create" />
     <MESSAGE value="HW_5 — Создать класс УчебнаяГруппа, содержащий в себе поля Преподаватель и список Студентов;" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_5 — Создать класс УчебнаяГруппа, содержащий в себе поля Преподаватель и список Студентов;" />
+    <MESSAGE value="Урок 6. ООП Дизайн и Solid // не закончено. //" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 6. ООП Дизайн и Solid // не закончено. //" />
   </component>
 </project>
